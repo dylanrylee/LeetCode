@@ -11,7 +11,6 @@ class Solution(object):
         in the hashset, then we return False, indicating that all of the elements are distinct.
         """
         hashset = set()
-        # for each index in nums, we check if each 
         for i in nums:
             if i in hashset:
                 return True
